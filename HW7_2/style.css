@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(51, 153, 204);
+    color: white;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+}
+
+.tab {
+    text-align: center;
+    width: 100%;
+    border: solid 2px white;
+    font-size: 0;
+}
+
+.main {
+    width: 70vw;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.tab li {
+    display: inline-block;
+    font-size: 20px;
+    height: 120px;
+    border: solid 2px white;
+    vertical-align: top;
+}
+
+.lisbon {
+    width: 50%;
+    background-color: rgb(51, 153, 254);
+}
+
+.paris {
+    width: 25%;
+    background-color: rgb(51, 204, 204);
+}
+
+.belgrade {
+    width: 25%;
+    background-color: rgb(153, 102, 153);
+}
+
+.moscov {
+    width: 25%;
+    background-color: rgb(194, 71, 71);
+}
+
+.tel {
+    width: 25%;
+    background-color: rgb(226, 103, 74);
+}
+
+.cair {
+    width: 25%;
+    background-color: rgb(255, 204, 102);
+}
+
+.york {
+    width: 25%;
+    background-color: rgb(153, 204, 153);
+}
+
+.delhi {
+    width: 25%;
+    background-color: rgb(102, 153, 153);
+}
+
+.san {
+    width: 50%;
+    background-color: rgb(204, 102, 153);
+}
+
+.tokyo {
+    width: 25%;
+    background-color: rgb(51, 153, 102);
+}
+
+.sydney {
+    width: 100%;
+    background-color: rgb(102, 102, 153);
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+li:hover {
+    opacity: 1;
+}
+
+li:not(:hover) {
+    opacity: 0.7;
+}

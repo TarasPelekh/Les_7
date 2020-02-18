@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+.head {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 550px;
+    }
+
+.main {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 980px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-size: 0;
+}
+
+.p1 {
+font-size: 12px;
+}
+
+.p2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(14, 200, 203);
+
+}
+
+.p3 {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.zag {
+font-size: 21px;
+font-weight: 800;
+vertical-align: top;
+}
+
+.one {
+    
+    display: inline-block;
+    width: 240px;
+    height: 420px;
+    vertical-align: top;
+    background-color: rgb(247, 247, 247);
+    outline: solid 1px rgb(236, 236, 236); 
+}
+
+.two {
+    display: inline-block;
+    width: 240px;
+    height: 420px;
+    vertical-align: top;
+    background-color: rgb(247, 247, 247);
+}
+
+.three {
+    display: inline-block;
+    width: 240px;
+    height: 420px;
+    vertical-align: top;
+    background-color: rgb(247, 247, 247);
+}
+
+.four {
+    display: inline-block;
+    width: 240px;
+    height: 420px;
+    vertical-align: top;
+    background-color: rgb(247, 247, 247);
+}
+
+div:hover {
+    background-color: rgb(14, 200, 203);
+    color: white;
+    font-size: 14px;
+}
+
+div:hover svg path {
+    fill: white;
+}
+
+div:not(:hover) svg path {
+    fill: black;
+}
+
+div:not(:hover) p:last-of-type {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+}
+
+svg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
